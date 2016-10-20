@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    universal_api (0.0.1)
+    universal_api (0.0.11)
       ransack
       will_paginate
 

@@ -98,7 +98,7 @@ module UniversalApi
         
         params[:id].split(',').each do |param_pair|
           v, k = param_pair.split("=").reverse
-          where_params[(k || "id").to_sym] = v
+          where_params[(k || @model_class.primary_key).to_sym] = v
         end
         
         @res = @model_class.where(where_params).first
