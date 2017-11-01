@@ -7,9 +7,8 @@ require "universal_api/version"
 Gem::Specification.new do |s|
   s.name        = "universal_api"
   s.version     = UniversalApi::VERSION
-  s.authors     = ["sov-87"]
-  s.email       = ["afetisov87@gmail.com"]
-  s.homepage    = "https://github.com/sov-87/universal_api"
+  s.authors     = ["Unact"]
+  s.homepage    = "https://github.com/Unact/universal_api"
   s.summary     = "UniversalApi gives REST interface for accessing ActiveRecord models"
   s.description = "UniversalApi gives REST interface for accessing ActiveRecord models"
   s.license     = "MIT"
