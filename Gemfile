@@ -13,6 +13,7 @@ gem "rails"
 gem "nori"
 gem "ransack"
 gem "will_paginate"
+gem 'byebug'
 
 # To use debugger
 # gem 'debugger'

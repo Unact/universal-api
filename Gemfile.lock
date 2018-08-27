@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    universal_api (0.0.11)
+    universal_api (0.0.12)
       ransack
       will_paginate
 
@@ -45,6 +45,7 @@ GEM
       tzinfo (~> 1.1)
     arel (6.0.3)
     builder (3.2.2)
+    byebug (9.0.6)
     concurrent-ruby (1.0.2)
     erubis (2.7.0)
     globalid (0.3.6)
@@ -117,6 +118,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   nori
   rails
   ransack
@@ -125,4 +127,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   1.12.5
+   1.16.2
